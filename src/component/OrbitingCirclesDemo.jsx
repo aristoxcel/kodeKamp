@@ -6,17 +6,17 @@ export function OrbitingCirclesDemo() {
   return (
     <div className="relative flex h-screen w-full items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
       <div className="flex items-center justify-center flex-col ">
-      <span className="text-5xl font-bold">
+      <span className="text-2xl font-semibold text-center lg:text-5xl lg:font-bold">
         We've really speed up our workflow up our workflow
       </span>
-      <span className="text-gray-400 font-semibold pt-2">
+      <span className="text-gray-400 font-semibold pt-2 text-center">
         We've really speed up our workflow up our workflow  speed up our workflow up our workflow
       </span>
-      <span className="text-gray-400 font-semibold ">
+      <span className="text-gray-400 font-semibold text-center">
         We've really speed up our workflow up our workflow
       </span>
-      <div className="flex gap-4 pt-8"><button className="text-[#7f56d9] border  rounded-lg p-2 font-semibold mr-2 flex justify-center items-center gap-3"><FaArrowRight />Start learning today</button>
-      <button className="text-white bg-[#7f56d9] rounded-lg p-2 font-semibold mr-2">Join Now</button></div>
+      <div className="flex-col lg:flex-row flex gap-4 pt-8 w-full p-5 lg:w-1/2"><button className="text-[#7f56d9] w-full lg:w-1/2 border  rounded-lg p-2 mb-1 lg:mb-1 font-semibold mr-2 flex justify-center items-center gap-3"><FaArrowRight />Start learning today</button>
+      <button className="text-white bg-[#7f56d9] rounded-lg p-2 lg:w-1/2 font-semibold  w-full mb-1">Join Now</button></div>
       </div>
       
 
